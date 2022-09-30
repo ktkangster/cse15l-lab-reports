@@ -17,7 +17,7 @@ $ ssh cs15lfa22xx@ieng6.ucsd.edu
 
 you should see something like this:
 
-![remote connect](remotessh.png)
+![remote connect](remotessh.PNG)
 
 you are now using a terminal connected to a remote machine located in the cse basement!<br>
 any commands you enter here will run on that computer
@@ -56,7 +56,7 @@ cat /home/linux/ieng6/cs15lfa22/public/hello.txt
 ```
 
 ### an example <br>
-![commands ss](commands.png)
+![commands ss](commands.PNG)
 
 # moving files with scp
 
@@ -119,7 +119,7 @@ $ logout
 $ scp /Users/<your username>/.ssh/id_rsa.pub cs15lfa22xx@ieng6.ucsd.edu:~/.ssh/authorized_keys
 ```
 
-![sshkey ss](sshkey.png)
+![sshkey ss](sshkey.PNG)
 now you can ssh and scp to the remote computer without entering your password everytime!
 
 # optimizing remote running
