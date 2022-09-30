@@ -55,7 +55,7 @@ cp /home/linux/ieng6/cs15lfa22/public/hello.txt ~/
 cat /home/linux/ieng6/cs15lfa22/public/hello.txt
 ```
 
-## an example <br>
+### an example <br>
 ![commands ss](commands.png)
 
 # moving files with scp
@@ -89,7 +89,7 @@ $ scp WhereAmI.java cs15lfa22xx@ieng6.ucsd.edu:~/          // be sure to specify
                                                            // here, we put it into the root directory
 ```
 
-## heres what it should look like
+### heres what it should look like
 
 ![scp ss](scp.png)
 
@@ -99,7 +99,7 @@ an ssh key is essentially an access key that computers utilize (through public a
 
 in other words, when you set up an ssh key, it allows you to become automatically verified as YOU so you won't have to enter in your password (but if you wanted to create an ssh key password you could too)
 
-## on your local computer run
+### on your local computer run
 
 ```
 $ ssh-keygen
@@ -126,7 +126,7 @@ now you can ssh and scp to the remote computer without entering your password ev
 
 commands can be run in line with the ssh command if you put it in quotes
 
-## for example
+### for example
 
 ```
 $ ssh cs15lfa22xx@ieng6.ucsd.edu "ls"
