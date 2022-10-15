@@ -36,13 +36,16 @@ public String handleRequest(URI url) {
     return "we have failed";
 }
 ```
-this code block holds the implementation for our live web server where we can watch a number get incremented by whatever count we want, as well as add words and search for them with the simple search engine
+this code block holds the implementation for our live web server where we can 
+watch a number get incremented by whatever count we want, as well as add words 
+and search for them with the simple search engine
 
 ## add to the number
 ![add number](addcount.png)
 
 here, we give a path "add" and a query "count" with value 1 <br>
-these arguments are passed through the handleRequest() method and increases the number by a count the user specifies<br>
+these arguments are passed through the handleRequest() method and increases the
+number by a count the user specifies<br>
 we can use any integer to add to the number by simply changing the value of count
 
 <br>
@@ -50,8 +53,10 @@ we can use any integer to add to the number by simply changing the value of coun
 ## add a result to the search engine
 ![add string](adds.png)
 
-using the same "add" path and specifying the query as "s" with value "apple", this will add a string to our search engine<br>
-try out a different value for s and it will add a different string to the search engine
+using the same "add" path and specifying the query as "s" with value "apple", 
+this will add a string to our search engine<br>
+try out a different value for s and it will add a different string to the 
+search engine
 
 <br>
 
@@ -59,6 +64,7 @@ try out a different value for s and it will add a different string to the search
 ![search](search.png)
 
 we use a the "search" path to search for a word in the search engine
+we can also specify the word we are looking for by changing the value of s
 
 # bugs!
 
