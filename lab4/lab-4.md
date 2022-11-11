@@ -3,8 +3,9 @@
 ```
 /C<Enter>^kv5jykpi<Enter><Esc>6wi2<Esc>/xa<Enter>lde<Esc>:w
 ```
+
 ## **/C\<Enter>**
-![](images/search-C.png)
+![](images/search-C.PNG)
 * We first search for a capital C to get to the function.
 
 ## **^kv5jy**
@@ -19,7 +20,7 @@
  ![](images/edit2.PNG)
  * \<Esc> to enter normal mode, 6w to jump 6 words forward, i to enter insert mode, edit a 2 at the end of the function name.
 
- ## **\<Esc>/xa\<Enter>lde\<Esc>:w**
+## **\<Esc>/xa\<Enter>lde\<Esc>:w**
 ![](images/wrote.PNG)
 * \<Esc> to enter normal mode, /xa <Enter> to place cursor at "xa", l to move cursor one character to the right, de to delete up until the end of the next word, then enter normal mode and write to the file.
 
